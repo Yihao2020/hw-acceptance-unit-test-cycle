@@ -16,6 +16,8 @@ require 'cucumber/rails'
 # your application behaves in the production environment, where an error page will
 # be rendered instead.
 #
+require 'simplecov'
+SimpleCov.start 'rails'
 # Sometimes we want to override this default behaviour and allow Rails to rescue
 # exceptions and display an error page (just like when the app is running in production).
 # Typical scenarios where you want to do this is when you test your error pages.
